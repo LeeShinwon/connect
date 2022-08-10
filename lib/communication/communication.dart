@@ -1,3 +1,4 @@
+import 'package:connect/communication/folder/folder_screen.dart';
 import 'package:flutter/material.dart';
 
 class Communication extends StatelessWidget {
@@ -5,6 +6,6 @@ class Communication extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return FolderScreen();
   }
 }
